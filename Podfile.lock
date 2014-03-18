@@ -1,15 +1,10 @@
 PODS:
-  - TWTToast/UIKit/ViewControllerTransitions (0.3.1)
+  - TWTToast/UIKit/ViewControllerTransitions (0.4)
 
 DEPENDENCIES:
-  - TWTToast/UIKit/ViewControllerTransitions (from `git@github.com:twotoasters/Toast.git`, commit `42a4aec28d856d53b0916f85a14d419c69dbf57d`)
-
-EXTERNAL SOURCES:
-  TWTToast:
-    :commit: 42a4aec28d856d53b0916f85a14d419c69dbf57d
-    :git: git@github.com:twotoasters/Toast.git
+  - TWTToast/UIKit/ViewControllerTransitions (~> 0.4)
 
 SPEC CHECKSUMS:
-  TWTToast: 48b0859759311c961b24e309e8ebb356f04b9ffa
+  TWTToast: 2c5a39e68f17997b24ae910b4663e5699293bb8a
 
 COCOAPODS: 0.29.0
