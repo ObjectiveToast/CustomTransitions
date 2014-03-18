@@ -1,6 +1,6 @@
 # CustomTransitions
 
-This project contains the examples that go along with the Objective Toast article titled [Custom Transitions on iOS]().
+This project contains the examples that go along with the Objective Toast article titled [Custom Transitions on iOS](http://objectivetoast.com/2014/03/17/custom-transitions-on-ios/).
 
 ## Setup
 
