@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FA8BFC2B1A6FC6F70E4DD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE481EEF3214B8A31DF6EB1F /* Foundation.framework */; };
+		5872966858686D84D8284F4A /* TWTNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B471F0B8278C651ABD8E20B4 /* TWTNavigationControllerDelegate.m */; };
+		6C82214073B409A5625A0DC2 /* TWTTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D3728FDE9F9058572991EF /* TWTTransitionController.h */; };
+		978DF6FD8178C3BBBDB7A100 /* TWTSimpleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26C064F69C35D6DF23E4BE3 /* TWTSimpleAnimationController.m */; };
+		9EBDF7518A65372E56AFD1C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE481EEF3214B8A31DF6EB1F /* Foundation.framework */; };
+		A36D4A4D8530C236CAF2F705 /* Pods-CustomTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 393C45EA73766864CAC25C7F /* Pods-CustomTransitions-dummy.m */; };
+		B1F5DD35DD41127B951B87E4 /* TWTSimpleAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE0C9C857C58F8EF63E3EA0 /* TWTSimpleAnimationController.h */; };
+		F52CCBBCAE95DBF712EF303F /* Pods-CustomTransitions-TWTToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 998745362E8A97E23603583C /* Pods-CustomTransitions-TWTToast-dummy.m */; };
+		F9ECEB26878E2EA214E9F18F /* TWTNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 873A916A7C14F8DB57B3B5A1 /* TWTNavigationControllerDelegate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D08D1E845AA4118622F66EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E65AE16F88D6A853F61158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA77061DE97D2133AC12F94F;
+			remoteInfo = "Pods-CustomTransitions-TWTToast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C94B4CD7FC1DF5A71A6772 /* libPods-CustomTransitions-TWTToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomTransitions-TWTToast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		055209D8633CC45ECEF62DA2 /* Pods-CustomTransitions-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTransitions-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1501134DCD765652769B678B /* Pods-CustomTransitions-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTransitions-acknowledgements.plist"; sourceTree = "<group>"; };
+		18D3728FDE9F9058572991EF /* TWTTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWTTransitionController.h; path = "UIKit/View Controller Transitions/TWTTransitionController.h"; sourceTree = "<group>"; };
+		263B5FDC8E60D34AA3FF8CF7 /* Pods-CustomTransitions-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomTransitions-environment.h"; sourceTree = "<group>"; };
+		393C45EA73766864CAC25C7F /* Pods-CustomTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTransitions-dummy.m"; sourceTree = "<group>"; };
+		3A346A2ABFF1E652E779287E /* Pods-CustomTransitions-TWTToast-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTransitions-TWTToast-Private.xcconfig"; sourceTree = "<group>"; };
+		68355F18E421DC9D5E9A6994 /* Pods-CustomTransitions-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTransitions-resources.sh"; sourceTree = "<group>"; };
+		6AAAE025D53B1815F831B97D /* Pods-CustomTransitions-TWTToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomTransitions-TWTToast-prefix.pch"; sourceTree = "<group>"; };
+		7CBEE7BEEDDEFAAADDD433E0 /* libPods-CustomTransitions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomTransitions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82453684E3EAA972F11EF0E7 /* Pods-CustomTransitions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTransitions.release.xcconfig"; sourceTree = "<group>"; };
+		8604A4FF74DC73CF4E5EDCAE /* Pods-CustomTransitions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTransitions.debug.xcconfig"; sourceTree = "<group>"; };
+		873A916A7C14F8DB57B3B5A1 /* TWTNavigationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWTNavigationControllerDelegate.h; path = "UIKit/View Controller Transitions/TWTNavigationControllerDelegate.h"; sourceTree = "<group>"; };
+		8C1E8B96F7733066402FF6D2 /* Pods-CustomTransitions-TWTToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTransitions-TWTToast.xcconfig"; sourceTree = "<group>"; };
+		998745362E8A97E23603583C /* Pods-CustomTransitions-TWTToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTransitions-TWTToast-dummy.m"; sourceTree = "<group>"; };
+		B471F0B8278C651ABD8E20B4 /* TWTNavigationControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWTNavigationControllerDelegate.m; path = "UIKit/View Controller Transitions/TWTNavigationControllerDelegate.m"; sourceTree = "<group>"; };
+		CE481EEF3214B8A31DF6EB1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D26C064F69C35D6DF23E4BE3 /* TWTSimpleAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWTSimpleAnimationController.m; path = "UIKit/View Controller Transitions/TWTSimpleAnimationController.m"; sourceTree = "<group>"; };
+		DBE0C9C857C58F8EF63E3EA0 /* TWTSimpleAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWTSimpleAnimationController.h; path = "UIKit/View Controller Transitions/TWTSimpleAnimationController.h"; sourceTree = "<group>"; };
+		F1553C38418A127E31B77935 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC787CDEF3347080ECD49371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBDF7518A65372E56AFD1C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BF34D002C2E692FD9D4B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FA8BFC2B1A6FC6F70E4DD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B50EF8DA15C160E6CB38B9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				65C78C5C01DBC615642210E4 /* ViewControllerTransitions */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		03FD58C21743D466EBADA29E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E8B96F7733066402FF6D2 /* Pods-CustomTransitions-TWTToast.xcconfig */,
+				3A346A2ABFF1E652E779287E /* Pods-CustomTransitions-TWTToast-Private.xcconfig */,
+				998745362E8A97E23603583C /* Pods-CustomTransitions-TWTToast-dummy.m */,
+				6AAAE025D53B1815F831B97D /* Pods-CustomTransitions-TWTToast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CustomTransitions-TWTToast";
+			sourceTree = "<group>";
+		};
+		043681123CFE51418CB6140B /* Pods-CustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				055209D8633CC45ECEF62DA2 /* Pods-CustomTransitions-acknowledgements.markdown */,
+				1501134DCD765652769B678B /* Pods-CustomTransitions-acknowledgements.plist */,
+				393C45EA73766864CAC25C7F /* Pods-CustomTransitions-dummy.m */,
+				263B5FDC8E60D34AA3FF8CF7 /* Pods-CustomTransitions-environment.h */,
+				68355F18E421DC9D5E9A6994 /* Pods-CustomTransitions-resources.sh */,
+				8604A4FF74DC73CF4E5EDCAE /* Pods-CustomTransitions.debug.xcconfig */,
+				82453684E3EAA972F11EF0E7 /* Pods-CustomTransitions.release.xcconfig */,
+			);
+			name = "Pods-CustomTransitions";
+			path = "Target Support Files/Pods-CustomTransitions";
+			sourceTree = "<group>";
+		};
+		0B660D6F94E6E1AD753214DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E75ABE7D73A77804A70EF67 /* TWTToast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65C78C5C01DBC615642210E4 /* ViewControllerTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				873A916A7C14F8DB57B3B5A1 /* TWTNavigationControllerDelegate.h */,
+				B471F0B8278C651ABD8E20B4 /* TWTNavigationControllerDelegate.m */,
+				DBE0C9C857C58F8EF63E3EA0 /* TWTSimpleAnimationController.h */,
+				D26C064F69C35D6DF23E4BE3 /* TWTSimpleAnimationController.m */,
+				18D3728FDE9F9058572991EF /* TWTTransitionController.h */,
+			);
+			name = ViewControllerTransitions;
+			sourceTree = "<group>";
+		};
+		7E75ABE7D73A77804A70EF67 /* TWTToast */ = {
+			isa = PBXGroup;
+			children = (
+				03FD58C21743D466EBADA29E /* Support Files */,
+				00B50EF8DA15C160E6CB38B9 /* UIKit */,
+			);
+			path = TWTToast;
+			sourceTree = "<group>";
+		};
+		8C834F9809123E1A2DB14D25 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE481EEF3214B8A31DF6EB1F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9BF8763BB4928D9BD11C533A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C834F9809123E1A2DB14D25 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8F70A7647568CBDF7DF2A90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				043681123CFE51418CB6140B /* Pods-CustomTransitions */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D431C9ECBE93F914ED74672B = {
+			isa = PBXGroup;
+			children = (
+				F1553C38418A127E31B77935 /* Podfile */,
+				9BF8763BB4928D9BD11C533A /* Frameworks */,
+				0B660D6F94E6E1AD753214DD /* Pods */,
+				F560B7CBB3978DA0A3E3D7D9 /* Products */,
+				B8F70A7647568CBDF7DF2A90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F560B7CBB3978DA0A3E3D7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CBEE7BEEDDEFAAADDD433E0 /* libPods-CustomTransitions.a */,
+				03C94B4CD7FC1DF5A71A6772 /* libPods-CustomTransitions-TWTToast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37541EC6ED7E8D63EB1824AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9ECEB26878E2EA214E9F18F /* TWTNavigationControllerDelegate.h in Headers */,
+				B1F5DD35DD41127B951B87E4 /* TWTSimpleAnimationController.h in Headers */,
+				6C82214073B409A5625A0DC2 /* TWTTransitionController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AC291941653B158925014023 /* Pods-CustomTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FA8F25B037E615065D052B /* Build configuration list for PBXNativeTarget "Pods-CustomTransitions" */;
+			buildPhases = (
+				705AE6CA03F1EBF1AEF639AF /* Sources */,
+				D0BF34D002C2E692FD9D4B16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8936DAB001259A0BA578CF /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomTransitions";
+			productName = "Pods-CustomTransitions";
+			productReference = 7CBEE7BEEDDEFAAADDD433E0 /* libPods-CustomTransitions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA77061DE97D2133AC12F94F /* Pods-CustomTransitions-TWTToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067841BB1DCCA8729A98E6C0 /* Build configuration list for PBXNativeTarget "Pods-CustomTransitions-TWTToast" */;
+			buildPhases = (
+				BB03CEE65795514A4ABA3018 /* Sources */,
+				AC787CDEF3347080ECD49371 /* Frameworks */,
+				37541EC6ED7E8D63EB1824AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CustomTransitions-TWTToast";
+			productName = "Pods-CustomTransitions-TWTToast";
+			productReference = 03C94B4CD7FC1DF5A71A6772 /* libPods-CustomTransitions-TWTToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E65AE16F88D6A853F61158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = FE2B03C005AB0425BB5665F7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D431C9ECBE93F914ED74672B;
+			productRefGroup = F560B7CBB3978DA0A3E3D7D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC291941653B158925014023 /* Pods-CustomTransitions */,
+				FA77061DE97D2133AC12F94F /* Pods-CustomTransitions-TWTToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		705AE6CA03F1EBF1AEF639AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36D4A4D8530C236CAF2F705 /* Pods-CustomTransitions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB03CEE65795514A4ABA3018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52CCBBCAE95DBF712EF303F /* Pods-CustomTransitions-TWTToast-dummy.m in Sources */,
+				5872966858686D84D8284F4A /* TWTNavigationControllerDelegate.m in Sources */,
+				978DF6FD8178C3BBBDB7A100 /* TWTSimpleAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8936DAB001259A0BA578CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CustomTransitions-TWTToast";
+			target = FA77061DE97D2133AC12F94F /* Pods-CustomTransitions-TWTToast */;
+			targetProxy = D08D1E845AA4118622F66EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15491CD674BE2EBED6D1571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A346A2ABFF1E652E779287E /* Pods-CustomTransitions-TWTToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CustomTransitions-TWTToast/Pods-CustomTransitions-TWTToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D0531AA3744E410C5AD65D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A346A2ABFF1E652E779287E /* Pods-CustomTransitions-TWTToast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CustomTransitions-TWTToast/Pods-CustomTransitions-TWTToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		660FD113D559C30725CF63C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F45F31DB47CADC3BF6250F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82453684E3EAA972F11EF0E7 /* Pods-CustomTransitions.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CA9C122E17175FC48F1EB1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E425B780775684E7BC5AC146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8604A4FF74DC73CF4E5EDCAE /* Pods-CustomTransitions.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067841BB1DCCA8729A98E6C0 /* Build configuration list for PBXNativeTarget "Pods-CustomTransitions-TWTToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15491CD674BE2EBED6D1571E /* Debug */,
+				2D0531AA3744E410C5AD65D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FA8F25B037E615065D052B /* Build configuration list for PBXNativeTarget "Pods-CustomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E425B780775684E7BC5AC146 /* Debug */,
+				7F45F31DB47CADC3BF6250F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2B03C005AB0425BB5665F7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9C122E17175FC48F1EB1F9 /* Debug */,
+				660FD113D559C30725CF63C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E65AE16F88D6A853F61158 /* Project object */;
+}
